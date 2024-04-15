@@ -1,23 +1,16 @@
 {
-  "name": "server",
+  "name": "algo-vizualizer",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "npx tsx watch api/app.ts"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/tudordecea1234/server.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/tudordecea1234/server/issues"
-  },
-  "homepage": "https://github.com/tudordecea1234/server#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.19.2"
   },
   "devDependencies": {
